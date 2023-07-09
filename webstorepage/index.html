@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="index.js"></script>
+    <title>My web store</title>
+  </head>
+  <body>
+    <h2 style="display: none">web store</h2>
+    <!-- havigation -->
+
+    <header class="header">
+      <nav class="header__navigation">
+        <h2 style="display: none">navigation section</h2>
+        <div class="header__navigation_logo">
+          <button class="logo_btn">
+            <img src="./img/Logo.png" alt="header logo" />
+          </button>
+        </div>
+        <div class="header__navigation_menu">
+          <div class="header__navigation_burger">
+            <button class="menu_btn">
+              <img src="./img/Forma1.png" alt="menu" />
+            </button>
+          </div>
+          <div class="header__navigation_profile hidden">
+            <button class="menu_btn">
+              <img src="./img/Forma2.png" alt="profile" />
+            </button>
+          </div>
+
+          <div class="header__navigation_cart hidden">
+            <button class="menu_btn">
+              <img src="./img/Forma3.png" alt="cart" />
+            </button>
+            <div class="cart_count">
+              <span class="cart_count_value">5</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner section -->
+
+      <section class="banner">
+        <div class="banner__wrapper">
+          <img
+            class="banner_img hidden"
+            src="./img/contentImg.png"
+            alt="content img"
+          />
+
+          <div class="banner__text">
+            <h1 class="banner_title_H1">THE BRAND</h1>
+            <h1 class="banner_title_H2">
+              OF LUXERIOUS <span class="red">FASHION</span>
+            </h1>
+          </div>
+
+          <!-- hidden menu -->
+
+          <div class="hidden_menu show">
+            <h3 class="hidden_menu_title">MENU</h3>
+            <div class="hidden_menu_block">
+              <h3 class="hidden_menu_block_title">Men</h3>
+              <p class="hidden_menu_text">Accessories</p>
+              <p class="hidden_menu_text">Bags</p>
+              <p class="hidden_menu_text">Denim</p>
+              <p class="hidden_menu_text">T-Shirts</p>
+            </div>
+            <div class="hidden_menu_block">
+              <h3 class="hidden_menu_block_title">Women</h3>
+              <p class="hidden_menu_text">Accessories</p>
+              <p class="hidden_menu_text">Jackets &amp;&nbsp;Coats</p>
+              <p class="hidden_menu_text">Polos</p>
+              <p class="hidden_menu_text">T-Shirts</p>
+              <p class="hidden_menu_text">Shirts</p>
+            </div>
+            <div class="hidden_menu_block">
+              <h3 class="hidden_menu_block_title">Kids</h3>
+              <p class="hidden_menu_text">Accessories</p>
+              <p class="hidden_menu_text">Jackets &amp;&nbsp;Coats</p>
+              <p class="hidden_menu_text">Polos</p>
+              <p class="hidden_menu_text">T-Shirts</p>
+              <p class="hidden_menu_text">Shirts</p>
+              <p class="hidden_menu_text">Bags</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- offers section -->
+      </section>
+      <section class="offer">
+        <div class="offer__wrapper container">
+          <div class="offer1">
+            <h3 class="offerH3">30% OFF</h3>
+            <h2 class="offerH2">FOR WOMEN</h2>
+          </div>
+          <div class="offer2">
+            <h3 class="offerH3">HOT DEAL</h3>
+            <h2 class="offerH2">FOR MEN</h2>
+          </div>
+          <div class="offer3">
+            <h3 class="offerH3">NEW ARRIVALS</h3>
+            <h2 class="offerH2">FOR KIDS</h2>
+          </div>
+        </div>
+        <div class="offer4 hidden">
+          <h3 class="offer_bottom">LUXIROUS &amp;&nbsp;TRENDY</h3>
+          <h2 class="offerH2">ACCESORIES</h2>
+        </div>
+      </section>
+
+      <!-- products section -->
+      <article class="prods_heading">
+        <h2 class="prods_title">Fetured Items</h2>
+        <p class="prods_text">
+          Shop for items based on what we featured in this week
+        </p>
+      </article>
+
+      <section class="prods">
+        <h2 style="display: none">Products section</h2>
+        <div class="prods__wrapper container">
+          <div class="prods__wrapper_prod">
+            <div class="cover">
+              <img src="./img/prod.jpg" alt="prod 1" />
+
+              <div class="cover_bg">
+                <button class="cover_btn">
+                  <img
+                    class="cover_img"
+                    src="./img/addToCart.svg"
+                    alt="add to cart"
+                  />
+                  <span class="cover_btn_text">Add to cart</span>
+                </button>
+              </div>
+            </div>
+
+            <article class="prod_desc">
+              <h3 class="prod_title">ELLERY X M'O CAPSULE</h3>
+              <p class="prod_text">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <span class="prod_price">$52.00</span>
+            </article>
+          </div>
+          <div class="prods__wrapper_prod">
+            <div class="cover">
+              <img src="./img/prod2.png" alt="prod 1" />
+
+              <div class="cover_bg">
+                <button class="cover_btn">
+                  <img
+                    class="cover_img"
+                    src="./img/addToCart.svg"
+                    alt="add to cart"
+                  />
+                  <span class="cover_btn_text">Add to cart</span>
+                </button>
+              </div>
+            </div>
+
+            <article class="prod_desc">
+              <h3 class="prod_title">ELLERY X M'O CAPSULE</h3>
+              <p class="prod_text">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <span class="prod_price">$52.00</span>
+            </article>
+          </div>
+          <div class="prods__wrapper_prod">
+            <div class="cover">
+              <img src="./img/prod3.png" alt="prod 1" />
+
+              <div class="cover_bg">
+                <button class="cover_btn">
+                  <img
+                    class="cover_img"
+                    src="./img/addToCart.svg"
+                    alt="add to cart"
+                  />
+                  <span class="cover_btn_text">Add to cart</span>
+                </button>
+              </div>
+            </div>
+
+            <article class="prod_desc">
+              <h3 class="prod_title">ELLERY X M'O CAPSULE</h3>
+              <p class="prod_text">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <span class="prod_price">$52.00</span>
+            </article>
+          </div>
+          <div class="prods__wrapper_prod">
+            <div class="cover">
+              <img src="./img/prod4.png" alt="prod 1" />
+
+              <div class="cover_bg">
+                <button class="cover_btn">
+                  <img
+                    class="cover_img"
+                    src="./img/addToCart.svg"
+                    alt="add to cart"
+                  />
+                  <span class="cover_btn_text">Add to cart</span>
+                </button>
+              </div>
+            </div>
+
+            <article class="prod_desc">
+              <h3 class="prod_title">ELLERY X M'O CAPSULE</h3>
+              <p class="prod_text">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <span class="prod_price">$52.00</span>
+            </article>
+          </div>
+          <div class="prods__wrapper_prod">
+            <div class="cover">
+              <img src="./img/prod5.png" alt="prod 1" />
+
+              <div class="cover_bg">
+                <button class="cover_btn">
+                  <img
+                    class="cover_img"
+                    src="./img/addToCart.svg"
+                    alt="add to cart"
+                  />
+                  <span class="cover_btn_text">Add to cart</span>
+                </button>
+              </div>
+            </div>
+
+            <article class="prod_desc">
+              <h3 class="prod_title">ELLERY X M'O CAPSULE</h3>
+              <p class="prod_text">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <span class="prod_price">$52.00</span>
+            </article>
+          </div>
+          <div class="prods__wrapper_prod">
+            <div class="cover">
+              <img src="./img/prod6.png" alt="prod 1" />
+
+              <div class="cover_bg">
+                <button class="cover_btn">
+                  <img
+                    class="cover_img"
+                    src="./img/addToCart.svg"
+                    alt="add to cart"
+                  />
+                  <span class="cover_btn_text">Add to cart</span>
+                </button>
+              </div>
+            </div>
+
+            <article class="prod_desc">
+              <h3 class="prod_title">ELLERY X M'O CAPSULE</h3>
+              <p class="prod_text">
+                Known for her sculptural takes on traditional tailoring,
+                Australian arbiter of cool Kym Ellery teams up with Moda
+                Operandi.
+              </p>
+              <span class="prod_price">$52.00</span>
+            </article>
+          </div>
+        </div>
+        <div class="prods_btn">
+          <button class="prod_btn">Browse All Product</button>
+        </div>
+      </section>
+
+      <!-- feature section -->
+      <section class="feature">
+        <h2 style="display: none">feature section</h2>
+        <div class="feature__wrapper container">
+          <article class="feature__wrapper_item">
+            <img class="feature_img" src="./img/feaImg1.png" alt="" />
+            <h2 class="feature_title">Free Delivery</h2>
+            <p class="feature_text">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </article>
+          <article class="feature__wrapper_item">
+            <img class="feature_img" src="./img/feaImg2.png" alt="" />
+            <h2 class="feature_title">Sales &amp;&nbsp;discounts</h2>
+            <p class="feature_text">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </article>
+          <article class="feature__wrapper_item">
+            <img class="feature_img" src="./img/feaImg3.png" alt="" />
+            <h2 class="feature_title">Quality assurance</h2>
+            <p class="feature_text">
+              Worldwide delivery on all. Authorit tively morph next-generation
+              innov tion with extensive models.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- subscribe section -->
+      <section class="subscribe">
+        <h2 style="display: none">subscribe section</h2>
+        <div class="subscribe__wrapper container">
+          <article class="subscribe__wrapper_info">
+            <h2 style="display: none">subscribe info</h2>
+            <img
+              src="./img/subscrFoto.png"
+              alt=""
+              class="subscribe_info_foto"
+            />
+            <p class="subscribe_info_text">
+              “Vestibulum quis porttitor dui! Quisque viverra nunc mi,<i>
+                a pulvinar purus condimentum</i
+              >“
+            </p>
+          </article>
+          <article class="subscribe__wrapper_form">
+            <h3 class="subscribe__wrapper_h3">SUBSCRIBE</h3>
+            <p class="subscribe__wrapper_text">
+              FOR OUR NEWLETTER AND PROMOTION
+            </p>
+
+            <form action="#" class="subscribe_form">
+              <input
+                type="email"
+                value="Enter Your Email"
+                class="subscribe_form_input_email"
+              />
+              <button type="submit" class="subscribe_form_submit">
+                Subscribe
+              </button>
+            </form>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <section class="footer">
+      <h2 style="display: none">footer section</h2>
+      <div class="footer__wrapper">
+        <p class="footer_text">© 2021 Brand All Rights Reserved.</p>
+        <div class="footer_logos">
+          <div class="footer_logos_logo">
+            <a href="#"
+              ><svg
+                class="footer_link_facebook"
+                xmlns="http://www.w3.org/2000/svg"
+                height="15"
+                viewBox="0 0 11 16"
+              >
+                <path
+                  class="footer_link_color"
+                  d="M9.08827 8.28L9.50677 5.61602H6.89013V3.88729C6.89013 3.15847 7.25565 2.44806 8.42756 2.44806H9.61713V0.179975C9.61713 0.179975 8.53763 0 7.50551 0C5.35064 0 3.94211 1.27593 3.94211 3.5857V5.61602H1.54678V8.28H3.94211V14.72H6.89013V8.28H9.08827Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="footer_logos_logo">
+            <a href="#">
+              <svg
+                class="footer_link_insta"
+                xmlns="http://www.w3.org/2000/svg"
+                height="18"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  class="footer_link_color"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="footer_logos_logo">
+            <a href="#" class="footer_link">
+              <svg
+                class="footer_link_pinter"
+                xmlns="http://www.w3.org/2000/svg"
+                height="18"
+                viewBox="0 0 13 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_190_1390)">
+                  <path
+                    class="footer_link_color"
+                    d="M6.7402 0.203125C3.55552 0.203125 0.408081 2.34063 0.408081 5.8C0.408081 8 1.63726 9.25 2.38221 9.25C2.68951 9.25 2.86643 8.3875 2.86643 8.14375C2.86643 7.85313 2.13079 7.23438 2.13079 6.025C2.13079 3.5125 4.03043 1.73125 6.48878 1.73125C8.60259 1.73125 10.167 2.94062 10.167 5.1625C10.167 6.82187 9.50585 9.93437 7.3641 9.93437C6.59121 9.93437 5.93006 9.37187 5.93006 8.56563C5.93006 7.38438 6.74951 6.24062 6.74951 5.02187C6.74951 2.95312 3.83487 3.32812 3.83487 5.82812C3.83487 6.35313 3.90006 6.93437 4.13286 7.4125C3.70451 9.26875 2.82919 12.0344 2.82919 13.9469C2.82919 14.5375 2.91299 15.1188 2.96886 15.7094C3.0744 15.8281 3.02163 15.8156 3.18304 15.7563C4.74744 13.6 4.69157 13.1781 5.39928 10.3562C5.78107 11.0875 6.76814 11.4812 7.55034 11.4812C10.8468 11.4812 12.3274 8.24688 12.3274 5.33125C12.3274 2.22813 9.66415 0.203125 6.7402 0.203125Z"
+                    fill="black"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="footer_logos_logo">
+            <a href="#" class="footer_link">
+              <svg
+                class="footer_link_twitter"
+                xmlns="http://www.w3.org/2000/svg"
+                height="15"
+                viewBox="0 0 17 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_190_1386)">
+                  <path
+                    class="footer_link_color"
+                    d="M14.4181 4.74107C14.4281 4.88319 14.4281 5.02535 14.4281 5.16747C14.4281 9.50247 11.1509 14.4974 5.16096 14.4974C3.31558 14.4974 1.60132 13.9593 0.159302 13.0253C0.421495 13.0558 0.673569 13.0659 0.94585 13.0659C2.46851 13.0659 3.8702 12.5482 4.98953 11.6649C3.5576 11.6345 2.3576 10.6903 1.94415 9.39081C2.14585 9.42125 2.34751 9.44156 2.5593 9.44156C2.85172 9.44156 3.14418 9.40094 3.41643 9.32991C1.92401 9.02531 0.80465 7.70553 0.80465 6.11163V6.07103C1.23825 6.31469 1.74249 6.46697 2.2769 6.48725C1.39959 5.89841 0.824826 4.89335 0.824826 3.75628C0.824826 3.14716 0.98614 2.58878 1.26851 2.10147C2.87187 4.09131 5.28195 5.39078 7.98443 5.53294C7.93403 5.28928 7.90376 5.0355 7.90376 4.78169C7.90376 2.97457 9.35586 1.5025 11.1609 1.5025C12.0987 1.5025 12.9457 1.89844 13.5407 2.53803C14.2768 2.39591 14.9827 2.12178 15.6079 1.74616C15.3659 2.5076 14.8516 3.14719 14.176 3.55325C14.8315 3.48222 15.4668 3.29944 16.0516 3.04566C15.608 3.69538 15.0533 4.27403 14.4181 4.74107Z"
+                    fill="black"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
